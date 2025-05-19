@@ -1,6 +1,8 @@
 {
 
-  "homepage": "https://iampraneeth1116.github.io/crypto2",
+  "homepage": ".", 
+
+  
   "name": "crypto-cap",
   "private": true,
   "version": "0.1.0",
