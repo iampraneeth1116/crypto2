@@ -1,5 +1,5 @@
 {
-  "homepage": ".", 
+  "homepage": "https://iampraneeth1116.github.io/crypto2",
   "name": "crypto-cap",
   "private": true,
   "version": "0.1.0",
@@ -26,4 +26,6 @@
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^6.3.4"
   }
+  
 }
+
