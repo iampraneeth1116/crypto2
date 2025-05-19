@@ -4,7 +4,6 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { Link } from "react-router-dom";
 
 function Footer() {
   function topFunction() {
@@ -19,18 +18,18 @@ function Footer() {
         CryptoTracker<span>.</span>
       </h2>
       <div className="social-links">
-        <Link to="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FacebookIcon className="social-link" />
-        </Link>
-        <Link to="mailto:iampraneeth1116@gmail.com">
+        </a>
+        <a href="mailto:iampraneeth1116@gmail.com">
           <EmailIcon className="social-link" />
-        </Link>
-        <Link to="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
           <TwitterIcon className="social-link" />
-        </Link>
-        <Link to="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
           <InstagramIcon className="social-link" />
-        </Link>
+        </a>
       </div>
     </div>
   );
