@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/crypto2/', // Update this to match your repository name
+  base: './', // Add this line
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
