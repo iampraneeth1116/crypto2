@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { RWebShare } from "react-web-share";
+import { Link } from "react-router-dom";
 import Button from "../../Common/Button";
 import gradient from "../../../assets/gradient.png";
 import iphone from "../../../assets/iphone.png";
@@ -43,9 +44,9 @@ function MainComponent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
           >
-            <a href="/dashboard">
+            <Link to="/dashboard">
               <Button text="Dashboard" />
-            </a>
+            </Link>
             <RWebShare
               data={{
                 text: "CryptoDashboard made using React JS.",
